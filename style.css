@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* container -- disini saya membuat container yang menampung header dan h1 */
+.container {
+    background-color: black;
+    height: 550px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 350px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li {
+    margin: 20px;
+    color: white;
+}
+/* intro */
+h1 {
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.one {
+    color: white;
+    margin-left: 85px;
+    margin-top: 15px;
+    opacity: 0.7;
+}
